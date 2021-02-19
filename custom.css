@@ -1,0 +1,86 @@
+.label-info {display:inline;margin-top:25px}
+.label-info a:nth-child(n+2){display:none;}
+  
+  
+.showpage a,.showpageNum a,.showpagePoint,.showpageOf{position:relative;background:#fff;display:inline-block;font-size:13px;color:rgba(0,0,0,.8);margin:0 4px 0 0;background: white; padding: 10px 20px; border: 1px solid rgb(230, 230, 230);transition:all .3s}
+.showpageNum a:before{content:&#39;&#39;;position:absolute;top:0;bottom:0;left:0;right:0;transition:box-shadow 0.5s}
+.showpage a:hover,.showpageNum a:hover,.showpagePoint:hover{background:rgba(0,0,0,0.03);color:#333;position:relative;}
+.showpagePoint{color:#fff;}
+.showpage a,.showpageNum a,.showpagePoint,.showpageOf{margin:0 2px 2px 0;}}
+
+
+
+.post {background: #fff; color: #333; margin-left: 0;transition: all 0.3s linear;padding: 20px; padding-top: 10px; padding-left: 15px;border-left: 1px solid #d4d4d4; border-bottom: 1px solid #d4d4d4; border-right: 1px solid #d4d4d4; border-style: dotted;height: 63px;}
+
+
+.post-outer {float: left; width:33.33%;}
+.post-body {color:rgba(51, 51, 51, 0.81);font-size:14px;font-weight:500;text-overflow:ellipsis;width: auto;margin-bottom: 15px;}
+h2.post-title, h1.post-title {font-size:13px;font-weight:900;text-transform:capitalize;padding-bottom:0;text-align:-webkit-left;border-bottom:none;border-top:none;clear:initial;letter-spacing: 0.4px;}
+h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {color:#59575c;z-index:0;overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin: 0 auto;line-height: 1.3;}
+
+.post-thumbnail{width:72px;height:72px;float:left;margin-right:10px;}
+.readmore2 {float:left;font-size: 12px; color:#333!important;font-weight: 300;margin-right:5px;transition: 0.4s;font-family: &#39;Merriweather&#39;, serif;text-transform: uppercase;letter-spacing: 0.2em;}
+.readmore2:hover {color:#333!important;transition: 0.9s;}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  
+  
+  
+  
+
+@media screen and (max-width:960px) {
+.promo {width:100%;padding:0;}
+#top-nav .wrapper {position: relative;}
+#top-menu-icon { width: 40px; height: 30px; float: right; border-right: 1px solid #ECECEC; border-left: 1px solid #ECECEC; background: url(http://4.bp.blogspot.com/-UDUfajF5uV0/VlBNqL5O4DI/AAAAAAAAGuk/unRI8jhDNJ4/s1600/top-menu-icon.png) no-repeat; cursor: pointer; background: all .3s; }
+#top-menu-icon:hover { background-color: #fff; }
+#top-nav ul { position: absolute; right: 0; top: 30px; display: none; height: auto; padding: 10px 0; background-color: #FCFCFC; border: 1px solid #f2f2f2; z-index: 1000; }
+#top-nav li { float: none; clear: both; line-height: 26px; }
+#top-nav li a { height: auto; padding: 0 12px; border-right: none; }
+#top-nav .menu li ul { position: static; float: none; display: block !important; background-color: transparent; border: none; padding: 0 0 0 10px; }
+#top-nav .menu li ul li { border: none; line-height: 26px; }
+#top-nav ul li ul a { height: auto; }
+#main-header .wrapper { position: relative; }
+
+
+
+
+
+@media only screen and (max-width:768px){
+#header {text-align:center;max-width:initial;}
+.post-body {width:auto!important;}
+
+
+.post-outer {width:33.3%;}
+.post {height:70px;}
+
+ .post-info {font-size:9px;}
+
+.author-info, .comment-info, .time-info, .label-info {border:0!important;padding:0!important;}
+.pager-left, .pager-right {width:43%!important;height:auto!important;}
+.related-postbwrap {width:100%;}
+.related-post-style-2 li {padding: 5px!important;width:30.83%;}
+#blog-pager a {font-size:11px;}
+
+#recent1 .recent-box, #recent2 .recent-box, #recent3 .recent-box, #recent4 .recent-box {width:30%}
+#label_with_thumbs li:nth-child(10n) {border-bottom: 1px solid #d4d4d4!important; border-bottom-style: dotted!important;}
+.widget_social_apps {float:none;width:initial;}
+}
+
+
+@media only screen and (max-width:640px){
+.post-body {width:auto!important;line-height: 1.4; font-size: 11px;margin-bottom:0}
+.related-post-style-2 li {padding: 5px!important;}
+.ad160 {display:none;}
+  
+  
+
+.post-outer {width:50%;}
+.post {height:70px;}
+#recent1 .recent-box, #recent2 .recent-box, #recent3 .recent-box, #recent4 .recent-box {width:46.1%}
+
+  
+  
+  
+  
