@@ -1,0 +1,2 @@
+/* Content */
+#content{position:relative;padding:24px 0 40px;margin:0 auto;width:100%;pointer-events:none}.article-view #content{padding-bottom:24px}.js-loading #content,.js-loaded #content{pointer-events:auto}@media (max-width:600px){#content{pointer-events:auto}}#content:after{content:"";display:block;clear:both}.page-view #content{max-width:900px}@media (max-width:480px){.multi-view #content{padding:10px 0 24px}.article-view #content{padding:10px 0}}

@@ -1,0 +1,2 @@
+/* Link list and Text list */
+.sidebar .LinkList ul>li,.sidebar .PageList ul>li{display:block;padding:5px 0}.sidebar .LinkList ul>li a,.sidebar .PageList ul>li a{color:#212121;font-size:15px;font-weight:400}.sidebar .PageList ul>li a:hover{opacity:.8}.sidebar .TextList ul>li{display:block;padding:5px 0;font-size:15px;font-weight:400}.sidebar .LinkList ul>li a:hover{opacity:.8}.sidebar .TextList .widget-content{cursor:auto;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text}
