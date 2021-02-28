@@ -523,11 +523,11 @@ footer .go-to-top{float:right;display:block;width:20px;height:20px;transform:rot
   #header.search-open .filters-toggle,
   #header.search-open .search-toggle{display:none}
   #header.search-open .search-wrapper{display:inline-block;float:left;position:relative;top:10px;left:0;width:calc(100% - 230px);margin-left:10px;transform:none}
-  #header.search-open .search-wrapper input.search{border-color:#fff;color:#fff;background-image:url('../images/svg/close-fff.svg')}
+  #header.search-open .search-wrapper input.search{border-color:#fff;color:#fff;background-image:url('https://teachwiki.github.io/apps/assets/images/svg/close-fff.svg')}
   #header.search-open .search-wrapper .close{display:block}
   #header.search-open .search-wrapper .close path{fill:#fff}
 
-  #header.sticky.search-open .search-wrapper input.search{border-color:#03040E;color:#03040E;background-image:url('../images/svg/close.svg')}
+  #header.sticky.search-open .search-wrapper input.search{border-color:#03040E;color:#03040E;background-image:url('https://teachwiki.github.io/apps/assets/images/svg/close.svg')}
 
   #header .filters{display:none;box-sizing:border-box;padding:15px 10px;position:absolute;left:0;top:100%;width:100%;overflow:auto;background-color:#15151a;color:#fff;line-height:initial;text-align:left}
   #header .filters .filters-group{float:left;border-left:1px solid rgba(255,255,255,.05)}
@@ -547,7 +547,7 @@ footer .go-to-top{float:right;display:block;width:20px;height:20px;transform:rot
   #header.sticky .filters .filters-group{border-color:rgba(0,0,0,.05)}
   #header.sticky .filters h6,
   #header.sticky .filters a{color:#131624}
-  #header.sticky .filters ul li.current a:after{background-image:url('../images/svg/close.svg')}
+  #header.sticky .filters ul li.current a:after{background-image:url('https://teachwiki.github.io/apps/assets/images/svg/close.svg')}
 
   #header.filters-open .filters{display:block}
   #header.filters-open .filters-toggle .icon-close{opacity:1}
