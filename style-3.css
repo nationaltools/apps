@@ -1,0 +1,358 @@
+
+/*
+-----------------------------------------------
+Type     : Responsive Blogger Template Style
+Name     : Porto
+Version  : 1.0.0
+Author   : Ar-themes
+URL      : http://btemplates.com/author/ar-themes
+----------------------------------------------- */
+/* Variable definitions
+=======================
+   <Group description="Page Text" selector="body">
+     <Variable name="body.font" description="Font" type="font"
+         default="normal normal 14px Open Sans" value="normal normal 14px Open Sans"/>
+     <Variable name="body.text.color" description="Text Color" type="color" default="#333333" value="#333333"/>
+   </Group>
+
+   <Group description="Backgrounds" selector="body">
+     <Variable name="body.background.color" description="Outer Background" type="color" default="#F7F7F7" value="#F7F7F7"/>
+     <Variable name="content.background.color" description="Main Background" type="color" default="transparent" value="transparent"/>
+     <Variable name="header.border.color" description="Header Border" type="color" default="#E2E2E2" value="#E2E2E2"/>
+   </Group>
+
+   <Group description="Links" selector=".container">
+     <Variable name="link.color" description="Link Color" type="color" default="#0072FE" value="#0072FE"/>
+     <Variable name="link.visited.color" description="Visited Color" type="color" default="#888888" value="#888888"/>
+     <Variable name="link.hover.color" description="Hover Color" type="color" default="#0072FE" value="#0072FE"/>
+   </Group>
+
+   <Group description="Blog Title" selector=".header h1">
+     <Variable name="header.font" description="Font" type="font"
+         default="normal bold 30px Calibri" value="normal bold 30px Calibri"/>
+     <Variable name="header.text.color" description="Title Color" type="color" default="#333333"  value="#333333"/>
+   </Group>
+
+   <Group description="Blog Description" selector=".header .description">
+     <Variable name="description.font" description="Font" type="font"
+         default="normal normal 14px Open Sans" value="normal normal 14px Open Sans"/>
+     <Variable name="description.text.color" description="Description Color" type="color"
+         default="#333333"  value="#333333"/>
+   </Group>
+
+   <Group description="Navigation" selector="#navigation">
+     <Variable name="navigation.font" description="Font" type="font"
+         default="normal normal 14px Open Sans" value="normal normal 14px Open Sans"/>
+     <Variable name="navigation.text.color" description="Text Color" type="color"
+         default="#333333"  value="#333333"/>
+     <Variable name="navigation.text.hover.color" description="Hover Text Color" type="color"
+         default="#0372FF"  value="#0372FF"/>
+   </Group>
+
+   <Group description="Icons" selector="#search,#social">
+     <Variable name="icons.color" description="Color" type="color"
+         default="#0072FE"  value="#0072FE"/>
+     <Variable name="icons.hover.color" description="Hover Color" type="color"
+         default="#333333"  value="#333333"/>
+     <Variable name="icons.background.color" description="Background Hover Color" type="color"
+         default="#E1E1E1"  value="#E1E1E1"/>
+   </Group>
+
+   <Group description="Mian Color" selector="div.clearfix">
+     <Variable name="main.color" description="Color" type="color"
+         default="#0072FE"  value="#0072FE"/>
+   </Group>
+
+   <Group description="Sidebar" selector="aside">
+     <Variable name="sidebar.gadget.title.font" description="Title Font" type="font"
+         default="normal bold 16px Open Sans" value="normal bold 16px Open Sans"/>
+     <Variable name="sidebar.gadget.title.color" description="Title Color" type="color"
+         default="#333333"  value="#333333"/>
+     <Variable name="sidebar.text.color" description="Text Color" type="color"
+         default="#333333"  value="#333333"/>
+   </Group>
+
+   <Group description="Footer" selector="footer">
+     <Variable name="footer.text.color" description="Text Color" type="color"
+         default="#333333"  value="#333333"/>
+     <Variable name="footer.border.color" description="Border Color" type="color"
+         default="#E1E1E1"  value="#E1E1E1"/>
+   </Group>
+
+   <Group description="Footer Gadgets" selector="footer .section .widget h2:first-child">
+     <Variable name="footer.gadget.title.font" description="Title Font" type="font"
+         default="normal bold 21px Open Sans" value="normal bold 21px Open Sans"/>
+     <Variable name="footer.gadget.title.color" description="Title Color" type="color"
+         default="#333333"  value="#333333"/>
+   </Group>
+
+   <Group description="Error Page Title" selector=".error-title">
+     <Variable name="error.title.font" description="Title Font" type="font"
+         default="normal bold 40px Open Sans" value="normal bold 40px Open Sans"/>
+     <Variable name="error.title.color" description="Title Color" type="color"
+         default="#ff0000"  value="#ff0000"/>
+   </Group>
+
+   <Group description="Error Page Description" selector=".error-description">
+     <Variable name="error.description.font" description="Description Font" type="font"
+         default="normal normal 18px Open Sans" value="normal normal 18px Open Sans"/>
+     <Variable name="error.description.color" description="Description Color" type="color"
+         default="#333333"  value="#333333"/>
+   </Group>
+
+ */
+
+
+/* Global
+----------------------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: $(body.background.color);
+  font: $(body.font);
+  color: $(body.text.color);
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: $(content.background.color);
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix:after, .clearfix:before {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0px;
+  line-height: 0;
+  width: 0px;
+  height: 0px;
+}
+a {
+  text-decoration: none;
+  color: $(link.color);
+}
+a:visited {
+  color: $(link.visited.color);
+}
+a:hover {
+  color: $(link.hover.color);
+}
+ul {
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
+}
+.left {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+.right {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.center {
+  text-align: center;
+  margin-bottom: 5px;
+}
+#logo, #navigation, #search, #social {
+  display: inline-block;
+  margin-right: 2%;
+}
+body#layout .main-posts {
+  width: 66.5%;
+  float: left;
+}
+body#layout .sidebar {
+  width: 32%;
+  float: right;
+}
+body#layout .footer-section {
+  width: 30%;
+  float: left;
+}
+
+
+
+
+/* MAIN CONTENT
+----------------------------------------------- */
+.summary-outer img {
+  vertical-align: top;
+}
+.ads, .main-posts, aside {
+  margin-top: 30px;
+}
+.date-outer {
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+.date-outer:nth-child(3n+3) {
+  margin-right: 0;
+}
+.main-posts {
+
+  width: 700px;
+  float: right;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.post {
+  margin-bottom: 5;
+top:20px
+}
+.post-body {
+  border-bottom-width: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.summary-outer a {
+  position: relative;
+  display: block;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  width: 245px;
+  height: 245px;
+  text-align: center;
+  line-height: 270px;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.summary-outer a:hover .overlay {
+  opacity: 1;
+}
+.overlay i {
+  line-height: inherit;
+  color: $(main.color);
+}
+.loader {
+  display: none !important;
+  width: 100%;
+  left: 0;
+  position: fixed;
+  z-index: 90;
+  text-align: center;
+  bottom: 100px;
+}
+.trigger {
+  display: none !important;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.trigger a {
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid #E1E1E1;
+  background-color: #E1E1E1;
+  display: block;
+  width: 100%;
+  padding: 8px 0px;
+  color: #9D9D9D;
+  font-size: 20px;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.trigger a:hover {
+  color: $(main.color);
+  border-color: #E1E1E1;
+  background-color: #FFF;
+}
+.popular-posts ul {
+  padding: 0;
+}
+[data-title]:before {
+  color: $(main.color);
+  border-bottom: 3px solid $(main.color);
+}
+[data-title]:after {
+  border-top: 5px solid $(main.color);
+}
+.post, .post-pager, #comments {
+  border-top: 3px solid $(main.color) !important;
+}
+h3.post-title span {
+  border-bottom: 3px solid $(main.color);
+}
+.status-msg-wrap {
+  border-left: 4px solid $(main.color) !important;
+}
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit:hover {
+  background-color: $(main.color);
+}
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit {
+  color: $(main.color);
+}
+.list-label-widget-content li span {
+  color: $(main.color);
+}
+.list-label-widget-content li span:first-child {
+  border: 1px solid $(main.color);
+}
+.list-label-widget-content li a:hover, #footer-nav .list-label-widget-content li a:hover {
+  background-color: $(main.color);
+}
+.label-size a:hover, .label-size:hover .label-count, .label-size:hover a {
+  background-color: $(main.color);
+}
+.cloud-label-widget-content .label-size span:first-child, .cloud-label-widget-content .label-size span:first-child span:nth-child(2) {
+  background-color: $(main.color);
+}
+blockquote:after, #toTop:hover {
+  color: $(main.color);
+}
+blockquote {
+  border-left: 3px solid $(main.color) !important;
+}
+.error-description .error-line2 a:hover {
+  background-color: $(main.color);
+  border: 2px solid $(main.color);
+}
+.error-title {
+  font: $(error.title.font);
+  color: $(error.title.color);
+}
+.error-description {
+  font: $(error.description.font);
+  color: $(error.description.color);
+}
+
+
+/* SIDEBAR
+----------------------------------------------- */
+
+
+
+
+aside .section .widget h2:first-child {
+  margin: -5px 0px 22px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #EEE;
+  font: $(sidebar.gadget.title.font);
+  color: $(sidebar.gadget.title.color)
+}
+aside .section .widget h2:first-child span {
+  border-bottom: 3px solid $(main.color);
+  padding-bottom: 9px;
+}
+
+
+
