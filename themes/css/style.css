@@ -1,0 +1,117 @@
+
+<!-- Variable definitions -->
+<Group description="Komentar Baru Blogger (Contempo, Soho, Emporio, Notable)">
+ <Variable name="body.background" description="Body Background" type="background" color="#dddfe2" default="#dddfe2 none repeat scroll top left" value="#dddfe2 none repeat scroll top left"/>
+ <Variable name="body.font" description="Font" type="font" default="normal 400 14px Roboto, Arial, sans-serif" value="normal 400 14px Arial,sans-serif"/>
+ <Variable name="body.text.color" description="Text Color" type="color" default="#1d2129" value="#1d2129"/>
+ <Variable name="body.text.font" description="1"
+  type="font"
+  default="$(body.font)" value="normal 400 14px Roboto,Arial,sans-serif"/>
+ <Variable name="posts.background.color" description="2"
+  type="color"
+  default="#fff" value="#ffffff"/>
+ <Variable name="body.link.color" description="3"
+  type="color"
+  default="#008c5f" value="#008c5f"/>
+ <Variable name="body.link.visited.color" description="4"
+  type="color"
+  default="#008c5f" value="#008c5f"/>
+ <Variable name="body.link.hover.color" description="5"
+  type="color"
+  default="#1d2129" value="#1d2129"/>
+ <Variable name="blog.title.font" description="6"
+  type="font"
+  default="$(body.text.font)" value="normal 400 14px Roboto, Arial, sans-serif"/>
+ <Variable name="blog.title.color" description="7"
+  type="color"
+  default="#fff" value="#ffffff"/>
+ <Variable name="header.icons.color" description="8"
+  type="color"
+  default="#fff" value="#ffffff"/>
+ <Variable name="tabs.font" description="9"
+  type="font"
+  default="$(body.text.font)" value="normal 400 14px Arial,sans-serif"/>
+ <Variable name="tabs.color" description="10"
+  type="color"
+  default="#ccc" value="#cccccc"/>
+ <Variable name="tabs.selected.color" description="11"
+  type="color"
+  default="#fff" value="#ffffff"/>
+ <Variable name="tabs.overflow.background.color" description="12"
+  type="color"
+  default="#fff" value="#ffffff"/>
+ <Variable name="tabs.overflow.color" description="13"
+  type="color"
+  default="$(body.text.color)" value="#1d2129"/>
+ <Variable name="tabs.overflow.selected.color" description="14"
+  type="color"
+  default="$(body.text.color)" value="#1d2129"/>
+ <Variable name="posts.title.color" description="15"
+  type="color"
+  default="$(body.text.color)" value="#1d2129"/>
+ <Variable name="posts.title.font" description="16"
+  type="font"
+  default="$(body.text.font)" value="normal 400 14px Arial,sans-serif"/>
+ <Variable name="posts.text.font" description="17"
+  type="font"
+  default="$(body.text.font)" value="normal 400 14px Arial,sans-serif"/>
+ <Variable name="posts.text.color" description="18"
+  type="color"
+  default="$(body.text.color)" value="#1d2129"/>
+ <Variable name="posts.icons.color" description="19"
+  type="color"
+  default="$(body.text.color)" value="#6c6f74"/>
+ <Variable name="labels.background.color" description="20"
+  type="color"
+  default="#008c5f" value="#008c5f"/>
+</Group>
+#header,.main-wrapper{float:left;}
+#header,.main-wrapper,.sidebar-wrapper,.header-wrapper{overflow:hidden}
+#header{width:330px!important;padding:0}
+.main-wrapper{width:500px;margin0}
+.box1,.box4,.box5,.goomwhats{display:none}
+.sidebar-wapper{width:310px;float:right;word-wrap:break-word}
+#layout ul,li,ol{list-style:none}
+body#layout #footer-section{overflow:hidden}body#layout #footer1{float:left;width:32%}
+body#layout #footer2{float:left;width:32%}body#layout #footer3{float:right;width:32%}
+#header,.main-wrapper{float:left;}
+#header,.main-wrapper,.sidebar-wrapper{overflow:hidden}
+#header{width:330px!important;padding:0}
+.main-wrapper{width:500px;margin0}
+.box4,.box5,.goomwhats{display:none}
+.sidebar-wapper{width:310px;float:right;word-wrap:break-word}
+#layout ul,li,ol{list-style:none}
+body#layout #header {float: left; width: 28%;}
+body#layout #header-nav {float: right; width: 46.9%;}
+body#layout #header:before {content: 'Logo';}
+body#layout #header-nav:before {content: 'Top Manu';}
+body#layout::before {content: "Netralid.com"; position: absolute; right: 10px; top: 10px; color: rgb(60, 165, 221); font-family: Roboto; font-size: 18px; font-weight: 700; background: #fff; padding: 5px 15px; border-radius: 24px;}
+body#layout .widget-content {background: rgb(60, 165, 221,.7) !important; box-shadow: none !important;}
+body#layout .widget-content a {transition: all .2s ease !important; background: #fff; width: 30px; height: 30px; color: #ff5722 !important; text-align: center; border-radius: 50%; display: block; text-decoration: none !important; line-height: 30px; font-weight: 700;}
+body#layout .section h4 {text-transform: capitalize; font-size: 15px !important; margin: 10px 0 0 0 !important;}
+body#layout .widget-content a:hover {background: #ff5722 !important; color: #fff !important;}
+body#layout div.layout-title {height: 24px; overflow: hidden; color: #000 !important; font-size: 14px !important;}
+body#layout .draggable-widget .widget-wrap2 {background:rgb(60, 165, 221) !important;}
+body#layout div.section {background:rgba(60, 165, 221, 0.05) !important; border: none !important;}
+body#layout div.layout-widget-description {color: #fff !important; font-style: italic;}
+body#layout {background: #f0f0f0 !important; border: 1px solid #e9e9e9 !important;}
+body#layout .add_widget a {transition: all .2s ease !important; font-size: 13px !important; text-decoration: none !important; margin-left: 10px !important;}
+body#layout #popular-category::before, body#layout #sticky-sidebar::before, body#layout #sidebar-ads3::before, body#layout #top-ads::before, body#layout #sidebar-category::before, body#layout #footer-left::before, body#layout #footer-right::before, body#layout #explore::before, body#layout #logo-header::before, body#layout #runningnews::before {content: "[Semua Halaman] [Seluler]"; position: absolute; right: 10px; font-size: 10px; color: #ff5722; margin: -10px 0 0 0;}
+body#layout #main::before {content: "[Halaman Posting] [Seluler]"; position: absolute; right: 10px; font-size: 10px; color: #ff5722; margin: -10px 0 0 0;}
+body#layout #in-top-main:before, body#layout #center-ads::before, body#layout #center-topik::before, body#layout #sidebar-ads1::before, body#layout #sidebar-ads2::before, body#layout #topik1::before {content: "[Halaman Depan] [Seluler]"; position: absolute; right: 10px; font-size: 10px; color: #ff5722; margin: -10px 0 0 0;}
+body#layout #popular-sidebar, body#layout #PopularPosts1, body#layout #HTML3, body#layout #popular-sidebar2, body#layout #HTML10, body#layout ul, body#layout #HTML11 {display: none;}
+body#layout .add_widget a:hover {color: #fff !important;}
+body#layout .add_widget {border: none !important; padding: 5px !important; background: #e9e9e9; border-radius: 24px;}
+body#layout .add_widget:hover {background: rgb(60, 165, 221,.7) !important; color: #fff !important;}
+body#layout #popular-category,body#layout #bottom-ads {clear: both;}
+body#layout #main {width:99%; float: left;}
+body#layout #logo-header {float: left; width: 30%;}
+body#layout #explore {float: right; width: 59.97%;}
+body#layout #top-widget-section, body#layout #top-gadget, body#layout #content-wrapper {display: block; overflow: hidden;}
+body#layout #top-main {width: 65%; float: left;}
+body#layout #top-right {width: 35%; float: right;}
+body#layout #sticky-section {float: right; width: 35%;}
+body#layout #footer-section {clear: both;}
+body#layout #footer-left {width: 59.96%; float: left;}
+body#layout #footer-right {width: 30%; float: right;}
+:root{--body-font:Roboto,Arial,sans-serif;--body-bg:#f0f2f5;--title-color:#1f2b38;--link-color:#2980b9;--text-color:#67676a;--subtitle-color:#47474a;--header-bg:#1f2b38;--header-color:#95a5a6;--header-hover-color:#fff;--navbar-bg:#243342;--navbar-color:#95a5a6;--navbar-hover-color:#fff;--hero-bg-1:#2c7ee8;--hero-bg-2:#27ae60;--hero-color:#fff;--hero-text-color:#cfeddc;--green-color:#27ae60;--green-hover-color:#239c56;--blue-color:#2980b9;--blue-hover-color:#2573a6;--red-color:#e74c3c;--bsellers-bg:#fff;--bsellers-title-color:#1f2b38;--bsellers-link-color:#2980b9;--footer-bg:#1f2b38;--footer-color:#95a5a6;--footer-title-color:#fff;--footer-hover-color:#fff;--footerbar-bg:#161e27;--footerbar-color:#e8e9eb;--footerbar-hover-color:#fff;--copyright-color:#95a5a6;--border-color:#e1e8ed;--box-shadow:0 1px 2px rgba(0,0,0,0.1);--top-box-shadow:0 -1px 2px rgba(0,0,0,0.1)}
