@@ -1,2 +1,0 @@
-/* Sidebar sticky */
-@media (min-width:960px){#sidebar-sticky{height:1px}#Sticky-Sidebar{position:relative;overflow:hidden;will-change:auto}#Sticky-Sidebar.sticky{position:fixed;top:0;margin:24px 0 0;padding:0 24px 0 0;width:inherit;z-index:2}[dir=rtl] #Sticky-Sidebar.sticky,.rtl #Sticky-Sidebar.sticky,.translated-rtl #Sticky-Sidebar.sticky{padding:0 0 0 24px}}.sidebar #Sticky-Sidebar .widget{padding:0}.sidebar #Sticky-Sidebar .widget-content{margin:0}

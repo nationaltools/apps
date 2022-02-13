@@ -1,8 +1,0 @@
-
-   /* Toolbar / Top App Bar */
- .toolbar-action{position:relative;right:-15px;top:1580px;display:inline-block;width:48px;height:48px;color:#ffffff!important;padding:12px;border-radius:50%;text-align:center;vertical-align:middle;z-index:1;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
-
-.toolbar-icon{
-
-position:relative;display:inline-block;fill:currentColor;color:#ffffff;width:24px;height:24px;font-size:24px;z-index:-1}
-
