@@ -11,7 +11,7 @@
     top: 50%;
     transform: translateY(-50%);
     height: 4px;
-    will-change: width;}.rangeslider--horizontal .rangeslider__fill{top:0;height:100%}.rangeslider--vertical .rangeslider__fill{bottom:0;width:100%}.rangeslider__handle{box-sizing: border-box;
+    will-change: width;}.rangeslider--vertical .rangeslider__fill{bottom:0;width:100%}.rangeslider__handle{box-sizing: border-box;
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.5);
     border: 6px solid #fff;
     height: 24px;
